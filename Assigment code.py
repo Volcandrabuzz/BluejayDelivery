@@ -37,9 +37,6 @@ def analyze_excel(file_path):
     # Print the tabular results in Excel format
     print(results_df.to_markdown(tablefmt="grid", headers="keys", index=False))
 
-    # Print the total count of results
-    total_results_count = results_df.shape[0]
-    print(f"\nTotal Results Count: {total_results_count}")
 
 # Specify the path to your Excel file
 excel_file_path = "Assignment_Timecard.xlsx"
